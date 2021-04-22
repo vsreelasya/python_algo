@@ -3,7 +3,4 @@
 #Output: "blue is sky the"
 class Solution:
     def reverseWords(self, s: str) -> str:
-        words = s.split(' ')
-        sentence = ' '.join(reversed(words)) 
-        return sentence
-        
+        return " ".join(reversed(s.split()))
